@@ -1,0 +1,70 @@
+* {
+  text-align: center;
+  
+}
+
+.app {
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  border: 2px solid black;
+  width: 50%;
+  margin-left: 25%;
+  padding: 1em;
+  border-radius: 4em;
+}
+
+form {
+  width: 100%;
+  
+}
+
+.input {
+  width: 18em;
+  height: 4em;
+  margin-right: 1em;
+  border-radius: 2em;
+}
+
+.button {
+  width: 8em;
+  height: 4em;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+}
+
+.task-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.task {
+  font-size: large;
+}
+
+.delete-button {
+  width: 4em;
+  height: 2em;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+}
+
+.task-results ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-results ul li {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+  border-bottom: 1px solid grey;
+}
+
+.checkbox {
+  flex-shrink: 0;
+}
